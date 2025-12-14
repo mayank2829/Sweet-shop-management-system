@@ -42,9 +42,8 @@ Tools
 - Postman / Thunder Client
 
 📂 Project Structure
-
+```
 Sweet-shop-management-system/
-│
 ├── backend/
 │   ├── controllers/
 │   ├── routes/
@@ -54,11 +53,12 @@ Sweet-shop-management-system/
 │
 ├── frontend/
 │   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── main.tsx
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── main.tsx
 │
 └── README.md
+```
 
 
 ⚙️ Installation & Setup
