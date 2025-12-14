@@ -3,6 +3,8 @@
 A full-stack web application designed to manage sweet shop operations such as user authentication, product management, cart, and orders.
 Built using the MERN stack, this project simplifies shop workflows and provides a smooth user experience.
 
+ **Live Demo:** https://sweet-shop-frontend-4q4p.onrender.com
+
 🚀 Features
 👤 User Features
 
@@ -18,6 +20,11 @@ Built using the MERN stack, this project simplifies shop workflows and provides 
 2. Manage categories
 3. View all orders
 4. Secure admin routes
+
+## 🌐 Live Demo
+
+Frontend (Render):  
+👉 https://sweet-shop-frontend-4q4p.onrender.com
 
 🧱 Tech Stack
 
