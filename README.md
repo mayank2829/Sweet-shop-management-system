@@ -6,55 +6,40 @@ Built using the MERN stack, this project simplifies shop workflows and provides 
 🚀 Features
 👤 User Features
 
-User registration & login (JWT authentication)
-
-View sweets and categories
-
-Add items to cart
-
-Place orders
-
-View order history
-
+1. User registration & login (JWT authentication)
+2. View sweets and categories
+3. Add items to cart
+4. Place orders
+5. View order history
+   
 🛠️ Admin Features
 
-Add, update, and delete sweets
-
-Manage categories
-
-View all orders
-
-Secure admin routes
+1. Add, update, and delete sweets
+2. Manage categories
+3. View all orders
+4. Secure admin routes
 
 🧱 Tech Stack
 
 Frontend
 
-React
-
-TypeScript
-
-Tailwind CSS
-
-Vite
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
 Backend
 
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-JWT Authentication
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
 
 Tools
 
-Git & GitHub
-
-Postman / Thunder Client
+- Git & GitHub
+- Postman / Thunder Client
 
 📂 Project Structure
 Sweet-shop-management-system/
@@ -91,7 +76,6 @@ JWT_SECRET=your_secret_key
 
 
 Run backend:
-
 npm start
 
 3️⃣ Frontend Setup
@@ -102,9 +86,7 @@ npm run dev
 🔐 API Testing
 
 You can test backend APIs using:
-
 Postman
-
 Thunder Client (VS Code)
 
 🧪 Sample Credentials (Optional)
@@ -119,10 +101,7 @@ password: user123
 
 📌 Future Enhancements
 
-Online payment integration
-
-Order status tracking
-
-Sales analytics dashboard
-
-Image upload for products
+- Online payment integration
+- Order status tracking
+- Sales analytics dashboard
+- Image upload for products
