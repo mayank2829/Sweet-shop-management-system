@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Layout } from "@/components/layout/Layout";
-import { getMyOrders } from "@/api/orders";
+import { getMyOrders } from "@/api/Orders";
 import { useAuth } from "@/contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
