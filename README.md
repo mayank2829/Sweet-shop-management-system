@@ -5,21 +5,35 @@ Built using the MERN stack, this project simplifies shop workflows and provides 
 
  **Live Demo:** https://sweet-shop-frontend-4q4p.onrender.com
 
-🚀 Features
-👤 User Features
+🧱 Core Features (As per TDD Kata Requirements)
+🔐 Authentication (JWT Based)
 
-1. User registration & login (JWT authentication)
-2. View sweets and categories
-3. Add items to cart
-4. Place orders
-5. View order history
-   
-🛠️ Admin Features
+- User registration
+- User login
+- Token-based protected routes
 
-1. Add, update, and delete sweets
-2. Manage categories
-3. View all orders
-4. Secure admin routes
+🍩 Sweet Management (Protected APIs)
+
+- Add new sweets
+- View all sweets
+Search sweets by:
+- Name
+- Category
+- Price range
+- Update sweet details
+- Delete sweets (Admin only)
+
+📦 Inventory Management
+
+- Purchase sweets (quantity decreases)
+- Restock sweets (Admin only)
+- Automatic stock validation (purchase disabled if quantity = 0)
+- Each sweet contains:
+- Unique ID
+- Name
+- Category
+- Price
+- Quantity in stock
 
 ## 🌐 Live Demo
 
@@ -67,6 +81,30 @@ Sweet-shop-management-system/
 └── README.md
 ```
 
+🤖 My AI Usage 
+
+🔧 AI Tools Used
+
+- ChatGPT
+- GitHub Copilot
+
+🧠 How AI Was Used
+
+- Brainstorming API endpoint structure
+- Generating initial boilerplate code
+- Writing unit and integration test templates
+- Debugging failing test cases
+- Improving code readability and refactoring suggestions
+
+✍️ Human Responsibility
+
+- All AI-generated code was reviewed, modified, and validated
+- Business logic and architectural decisions were made manually
+- Tests were analyzed and adjusted to ensure correctness
+
+🪞 Reflection
+
+AI significantly improved development speed and learning efficiency, but core problem-solving, TDD discipline, and final implementation decisions remained human-driven.
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
